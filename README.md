@@ -1,5 +1,28 @@
 # E-commerce-DBMS-homework
-# RDBMS homework - NBA Database
+# RDBMS homework - E-commerce Database
+
+## Quick start
+* download mySQL
+* install pyqt5
+
+## 系統架構與環境
+### 系統架構
+![image](https://user-images.githubusercontent.com/37070545/209913022-bc1556f3-fc1a-43fd-8fb9-9311ad215616.png)
+
+### 系統環境 
+* 系統 : win10
+* 資料庫 : mySQL
+* 前端 : PyQT5
+* 使用說明
+    1. 利用mySQL workbench 創建data，也可以直接輸入sql檔。
+    ![image](https://user-images.githubusercontent.com/37070545/209913165-6d0d14b7-d4fe-4b6d-a218-6c417e950711.png)
+    2. 使用 start.py 開啟UI介面。
+    ![image](https://user-images.githubusercontent.com/37070545/209913393-4425123a-c2b6-4d69-98e8-ad27c99aa38d.png)
+    3. 下拉選擇你要的 query，然後點選 search 便能觸發該 query。(點選 Clear 刪除頁面上的結果)
+    ![image](https://user-images.githubusercontent.com/37070545/209913432-a8c0b8f4-3680-4157-bfbb-f86eb074a170.png)
+    4. 也可以在query方框內輸入要執行的query。(點選 Clear 刪除頁面上的結果)
+    ![image](https://user-images.githubusercontent.com/37070545/209913562-3b5679ab-bba6-4225-b117-4a30a81d1892.png)
+
 
 ## ER Diagrams
 ![project_er diagram](https://user-images.githubusercontent.com/37070545/207524900-91711c02-7313-41a7-b2c2-29968d1dc917.jpg)
