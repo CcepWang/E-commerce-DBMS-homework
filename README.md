@@ -52,7 +52,7 @@
     1. Order_ID (**primary key**) : 訂單的 id。
     2. Total_cost : 該訂單的總花費。
     3. Time : 消費者下訂單的時間。
-    4. L_ID : 物流的 id。
+    4. L_ID (**foreign key**) : 物流的 id。
 * **Logistics**
     1. Logistics_ID (**primary key**) : 物流的 id。
     2. Name : 物流的名稱。
