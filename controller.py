@@ -17,7 +17,7 @@ class MainWindow_controller(QtWidgets.QMainWindow):
             "host": "127.0.0.1",
             "port": 3306,
             "user": "root",
-            "password": "輸入密碼",
+            "password": "密碼",
             "db": "dbms_project",
             "charset": "utf8"
         }
@@ -166,6 +166,8 @@ class MainWindow_controller(QtWidgets.QMainWindow):
                 break
             else:
                 temp += string[i]
+
+        return temp
 
     def showResult(self,result):
         temp = ''
